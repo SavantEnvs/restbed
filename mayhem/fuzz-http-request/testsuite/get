@@ -1,0 +1,3 @@
+GET /resource?limit=5&x=a%20b HTTP/1.1
+Host: localhost
+

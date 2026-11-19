@@ -1,0 +1,2 @@
+# Seed inputs are raw protocol bytes (CRLF matters): never normalise them.
+*/testsuite/** -text

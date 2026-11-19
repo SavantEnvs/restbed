@@ -1,0 +1,9 @@
+project: savantenvs/restbed
+target: fuzz-uri
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-uri/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_uri
+    libfuzzer: true
+    timeout: 5
